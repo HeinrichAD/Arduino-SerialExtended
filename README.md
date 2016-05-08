@@ -15,11 +15,11 @@ This is a small library which extent the ```Serial``` class in Arduino.
 ## Intention
 I wanted to program a little Pin overview for the AAR-04 AREXX ARDUINO ROBOT which I lent me out. The Pin overview should look like this:
 
-** picture **
+![](https://raw.githubusercontent.com/HeinrichAD/Arduino-PinOverview/master/Arduino-PinOverview.png)
 
 Every X seconds the values should be refreshed. For this I intentional refresh the hole table. Not nice but should work was what I thought. Unfortunately, the buffer was not big enough and not the hole table was printed. The result was that I only print the table structure and update only the values. To realize this, I wrote this library. Due to this lirary I am able set the courser to the right place and override the old values.
 
-The Pin overview program could be found [here](**Git Repository Link**).
+The Pin overview program could be found [here](https://github.com/HeinrichAD/Arduino-PinOverview).
 
 
 ## ANSI/VT100 Terminal Control Escape Sequences
@@ -45,13 +45,13 @@ Many terminals like [PuTTY] have different settings avalible and different defau
 
 _Example:_ [PuTTY] can support blinking text, but it is disabled by default:
 
-** Example picture **
+![](PuTTY-Settings-BlinkingText.png)
 
 
 ## Example
 The following little example can be also found here: ```/examples/SerialExamples.ino```.
 
-A better and maybe a little bit more complex example is the project which I mentioned in the intention. This project could be found [here](**Git Repository Link**).
+A better and maybe a little bit more complex example is the project which I mentioned in the intention. This project could be found [here](https://github.com/HeinrichAD/Arduino-PinOverview).
 ```c++
 #include <SerialExtended.h>
 
