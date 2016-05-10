@@ -31,7 +31,7 @@ This library based on "[ANSI/VT100 Terminal Control Escape Sequences](http://www
 ## Requirements
 The serial monitor from the arduino IDE does not support everything.
 
-I recommend for a nearly full support [PuTTY] for Windows user.
+I recommend for a nearly full support [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) for Windows user.
 
 
 ## How to install Arduino libraries
@@ -41,9 +41,9 @@ In short, copy the library files to your library folder, restart your Arduino ID
 
 
 ## Terminal Settings
-Many terminals like [PuTTY] have different settings avalible and different defaults. If something is not working, you should look in the terminal settings if you are able enable the support. If there isn't a settings for this then you should look if the terminal support this anyway.
+Many terminals like [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) have different settings avalible and different defaults. If something is not working, you should look in the terminal settings if you are able enable the support. If there isn't a settings for this then you should look if the terminal support this anyway.
 
-_Example:_ [PuTTY] can support blinking text, but it is disabled by default:
+_Example:_ [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) can support blinking text, but it is disabled by default:
 
 ![](PuTTY-Settings-BlinkingText.png)
 
@@ -120,8 +120,4 @@ void loop() {
 
 ## LICENSE
 GNU General Public License v3.0<br />
-For more information see LICENSE file.
-
-
-
-[PuTTY]:(http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+For more information see [LICENSE](/LICENSE) file.
